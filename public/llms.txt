@@ -1,0 +1,19 @@
+# Papás en CDMX
+
+> Papás en CDMX es un directorio verificado de servicios para familias en la Ciudad de México, con un boletín para mamás y papás. Cubre servicios en 6 categorías y colonias de toda la CDMX.
+
+Papás en CDMX ayuda a las familias a encontrar servicios confiables para sus hijos: colegios, campamentos, actividades extraescolares, ocio familiar, clubes deportivos y salud infantil. Todos los listados están verificados.
+
+## Categorías del directorio
+
+- [Campamentos](https://papasencdmx.com/campamentos): Campamentos de verano, de invierno, deportivos y urbanos para niños en la CDMX.
+- [Colegios](https://papasencdmx.com/colegios): Escuelas públicas, privadas, bilingües e internacionales en la CDMX.
+- [Extraescolares](https://papasencdmx.com/extraescolares): Idiomas, música, robótica, arte y clases particulares en la CDMX.
+- [Ocio Familiar](https://papasencdmx.com/ocio-familiar): Parques, museos, restaurantes familiares y planes de fin de semana en la CDMX.
+- [Deportes](https://papasencdmx.com/deportes): Clubes, academias, albercas y escuelas deportivas para niños en la CDMX.
+- [Salud](https://papasencdmx.com/salud): Pediatras, dentistas infantiles, terapeutas y nutriólogos en la CDMX.
+
+## Contacto
+
+- Sitio web: https://papasencdmx.com
+- Correo: hola@papasencdmx.com

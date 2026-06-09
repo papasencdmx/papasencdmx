@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply font-body text-warm-800 bg-warm-50;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-warm-900;
+  }
+
+  ::selection {
+    @apply bg-brand-200 text-brand-900;
+  }
+}
+
+@layer components {
+  .container-padres {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-12 sm:py-16 lg:py-20;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-brand-500 px-6 py-3 font-body font-semibold text-white transition-all duration-200 hover:bg-brand-600 hover:shadow-lg active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-copper {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-copper-500 px-6 py-3 font-body font-bold text-white transition-all duration-200 hover:bg-copper-400 hover:shadow-lg active:scale-[0.98];
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border-2 border-warm-200 bg-white px-6 py-3 font-body font-semibold text-warm-700 transition-all duration-200 hover:border-brand-300 hover:text-brand-600 hover:bg-brand-50 active:scale-[0.98];
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 font-body font-medium text-warm-600 transition-all duration-200 hover:bg-warm-100 hover:text-warm-800;
+  }
+
+  .card {
+    @apply rounded-2xl border border-warm-200 bg-white shadow-card transition-all duration-300 hover:shadow-card-hover;
+  }
+
+  .card-featured {
+    @apply rounded-2xl border-2 border-featured-500 bg-white shadow-featured;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-1 rounded-full px-3 py-1 text-sm font-medium;
+  }
+
+  .badge-verified {
+    @apply badge bg-verified-50 text-verified-700;
+  }
+
+  .badge-featured {
+    @apply badge bg-featured-50 text-featured-600;
+  }
+
+  .badge-zone {
+    @apply badge bg-ocean-50 text-ocean-700;
+  }
+
+  .badge-category {
+    @apply badge bg-brand-50 text-brand-700;
+  }
+
+  .input-field {
+    @apply w-full rounded-xl border border-warm-300 bg-white px-4 py-3 font-body text-warm-800 placeholder:text-warm-400 transition-colors duration-200 focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-100;
+  }
+
+  .zone-pill {
+    @apply inline-flex items-center px-3 py-1.5 rounded-full text-xs font-medium border border-warm-200 bg-white text-warm-600 transition-all duration-150 hover:border-ocean-900 hover:text-ocean-900 hover:bg-ocean-50;
+  }
+
+  .skeleton {
+    @apply animate-pulse rounded-xl bg-warm-200;
+  }
+}
+
+/* Smooth page transitions */
+@layer utilities {
+  .animate-stagger-1 {
+    animation-delay: 0.1s;
+  }
+
+  .animate-stagger-2 {
+    animation-delay: 0.2s;
+  }
+
+  .animate-stagger-3 {
+    animation-delay: 0.3s;
+  }
+
+  .animate-stagger-4 {
+    animation-delay: 0.4s;
+  }
+
+  .animate-stagger-5 {
+    animation-delay: 0.5s;
+  }
+
+  /* Hide scrollbar but keep scroll functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* "Reserva tu plaza" flashing CTA — animated gradient bg + traveling glow */
+  .reserve-flash {
+    isolation: isolate;
+  }
+  .reserve-flash-bg {
+    background: linear-gradient(110deg, #b91c1c 0%, #ef4444 25%, #f97316 50%, #ef4444 75%, #b91c1c 100%);
+    background-size: 220% 100%;
+    animation: reserveShift 3.4s linear infinite;
+  }
+  .reserve-flash-glow {
+    background: conic-gradient(
+      from 0deg,
+      rgba(252, 211, 77, 0) 0deg,
+      rgba(252, 211, 77, 0.85) 60deg,
+      rgba(244, 63, 94, 0.85) 120deg,
+      rgba(252, 211, 77, 0) 180deg,
+      rgba(252, 211, 77, 0) 360deg
+    );
+    filter: blur(10px);
+    opacity: 0.85;
+    z-index: -1;
+    animation: reserveSpin 2.6s linear infinite;
+  }
+  @keyframes reserveShift {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 220% 50%; }
+  }
+  @keyframes reserveSpin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .reserve-flash-bg,
+    .reserve-flash-glow { animation: none; }
+  }
+}
