@@ -52,7 +52,7 @@ export function ColaborarHero() {
                     {isPartner ? (
                         <>
                             <p className="text-[15px] sm:text-[16px] leading-[1.6] text-warm-600 max-w-sm">
-                                Sube los datos y la imagen de tu negocio. Tu equipo de Padres en
+                                Sube los datos y la imagen de tu negocio. Tu equipo de Papás en
                                 CDMX lo revisará y publicará tu ficha en las{" "}
                                 <strong className="text-warm-900 font-bold">próximas 48h</strong>.
                             </p>
