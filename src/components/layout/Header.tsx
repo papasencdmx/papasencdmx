@@ -32,12 +32,12 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-warm-200 bg-white/97 backdrop-blur-xl">
       <div className="container-padres">
         <div className="flex h-[60px] items-center justify-between gap-4">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-2.5 shrink-0">
+          {/* Logo — brand lockup, shown across the whole site for consistency */}
+          <Link href="/" className="flex items-center shrink-0">
             <img
-              src="/icons/papas_en_cdmx.svg"
+              src="/logo-hori-transparency.png"
               alt={`Papás en ${config.cityName}`}
-              className="h-12 w-auto object-contain"
+              className="h-11 w-auto object-contain"
             />
           </Link>
 

@@ -6,7 +6,7 @@ import { getCityConfig } from "@/config/city";
 const cfg = getCityConfig();
 
 export const metadata: Metadata = {
-    title: `Colabora con Papás en ${cfg.cityName} — Envía tu propuesta`,
+    title: `Colabora con Papás en ${cfg.cityName}. Envía tu propuesta`,
     description: `¿Organizas campamentos, actividades o servicios para familias en ${cfg.cityName}? Envíanos tu propuesta y llega a miles de familias.`,
     robots: { index: true, follow: true },
 };
@@ -22,19 +22,16 @@ export default function ColaborarLayout({ children }: { children: React.ReactNod
                 <div className="max-w-[1280px] mx-auto px-6 sm:px-10 lg:px-14 py-5 flex items-center justify-between gap-6">
                     <Link
                         href="/"
-                        className="inline-flex items-center gap-3 group"
+                        className="inline-flex items-center gap-3"
                     >
-                        <span className="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-copper-600 text-white text-[15px] font-extrabold group-hover:bg-copper-700 transition-colors">
-                            P
+                        <img
+                            src="/logo-hori-transparency.png"
+                            alt={`Papás en ${cfg.cityName}`}
+                            className="h-10 w-auto object-contain"
+                        />
+                        <span className="hidden sm:inline-block text-[10.5px] uppercase tracking-[0.22em] font-semibold text-warm-400 border-l border-warm-200 pl-3">
+                            Colaboradores
                         </span>
-                        <div className="flex flex-col">
-                            <span className="font-display text-[14px] sm:text-[15px] font-extrabold tracking-tight leading-none text-warm-900">
-                                Papás en {cfg.cityName}
-                            </span>
-                            <span className="hidden sm:inline-block text-[10.5px] uppercase tracking-[0.22em] font-semibold text-warm-400 mt-1">
-                                Colaboradores
-                            </span>
-                        </div>
                     </Link>
 
                     <Link

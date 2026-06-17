@@ -370,7 +370,7 @@ export function ColaborarForm() {
                         required
                         value={form.zone}
                         onChange={(e) => update("zone", e.target.value)}
-                        placeholder="Centro · Salamanca · Las Rozas…"
+                        placeholder="Polanco · Condesa · Coyoacán…"
                     />
                 </Field>
                 <Field label="Dirección" hint="Opcional">
@@ -470,7 +470,7 @@ export function ColaborarForm() {
                     </>
                 }
             >
-                <Field label="URL de reserva o información" required>
+                <Field label="URL de reservación o información" required>
                     <Input
                         type="url"
                         required

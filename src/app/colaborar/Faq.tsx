@@ -10,7 +10,7 @@ interface FaqItem {
 
 const FAQS: FaqItem[] = [
     {
-        q: "¿Por qué pedís mis datos de contacto?",
+        q: "¿Por qué piden mis datos de contacto?",
         a: (
             <>
                 <p>
@@ -19,7 +19,7 @@ const FAQS: FaqItem[] = [
                 </p>
                 <p className="mt-2 text-warm-500">
                     Nuestro equipo revisa personalmente cada nueva colaboración. Tu email y
-                    teléfono solo se usan para coordinar la colaboración — nunca los
+                    teléfono solo se usan para coordinar la colaboración, y nunca los
                     publicamos ni los compartimos con terceros.
                 </p>
             </>
@@ -35,9 +35,9 @@ const FAQS: FaqItem[] = [
                     más que una genérica.
                 </p>
                 <p className="mt-2 text-warm-500">
-                    Ejemplo malo: «Campamento divertido en verano para niños». Ejemplo bueno:
-                    «Campamento de fútbol en las instalaciones de un club con
-                    entrenadores titulados y dos sesiones diarias.»
+                    Ejemplo malo: "Campamento divertido en verano para niños". Ejemplo bueno:
+                    "Campamento de fútbol en las instalaciones de un club con
+                    entrenadores certificados y dos sesiones diarias."
                 </p>
             </>
         ),
@@ -48,12 +48,12 @@ const FAQS: FaqItem[] = [
             <>
                 <p>
                     Si nos ofreces un precio menor al normal exclusivo para nuestra
-                    comunidad, lo destacamos automáticamente en la tarjeta con un badge de
-                    descuento — esto multiplica las reservas.
+                    comunidad, lo destacamos automáticamente en la tarjeta con una insignia de
+                    descuento, lo que multiplica las reservaciones.
                 </p>
                 <p className="mt-2 text-warm-500">
                     Si prefieres no aplicar descuento, deja vacíos ambos campos y mostraremos
-                    «Consultar precio».
+                    "Consultar precio".
                 </p>
             </>
         ),
@@ -80,16 +80,16 @@ const FAQS: FaqItem[] = [
         ),
     },
     {
-        q: "¿Por qué pedís un enlace de reserva?",
+        q: "¿Por qué piden un enlace de reservación?",
         a: (
             <>
                 <p>
-                    Es donde las familias completarán la reserva o pedirán información sobre
+                    Es donde las familias completarán la reservación o pedirán información sobre
                     tu actividad.
                 </p>
                 <p className="mt-2 text-warm-500">
-                    Generamos automáticamente un enlace tracking propio para que veas cuántas
-                    familias han hecho clic desde Papás en CDMX hacia tu web.
+                    Generamos automáticamente un enlace de seguimiento propio para que veas cuántas
+                    familias dieron clic desde Papás en CDMX hacia tu sitio.
                 </p>
             </>
         ),
@@ -100,19 +100,19 @@ const FAQS: FaqItem[] = [
             <>
                 <p>
                     Menos de <strong className="text-warm-900">48 horas</strong>. Te
-                    escribimos al email que has indicado con la decisión y los siguientes
+                    escribimos al email que indicaste con la decisión y los siguientes
                     pasos.
                 </p>
                 <p className="mt-2 text-warm-500">
                     Si la propuesta encaja con nuestra comunidad, la publicamos en las
-                    páginas relevantes (campamentos, extraescolares, etc.). Si no encaja en
+                    páginas relevantes (campamentos, extracurriculares, etc.). Si no encaja en
                     este momento, te explicamos por qué.
                 </p>
             </>
         ),
     },
     {
-        q: "¿Tiene algún coste?",
+        q: "¿Tiene algún costo?",
         a: (
             <>
                 <p>

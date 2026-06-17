@@ -70,7 +70,7 @@ export function ColaborarHero() {
                             <p className="text-[15px] sm:text-[16px] leading-[1.6] text-warm-600 max-w-sm">
                                 Revisamos cada propuesta a mano en menos de{" "}
                                 <strong className="text-warm-900 font-bold">48 horas</strong>.
-                                Sin tarifas, sin compromiso — si encaja con nuestra comunidad, te
+                                Sin tarifas, sin compromiso. Si encaja con nuestra comunidad, te
                                 ayudamos a llegar a miles de familias en la CDMX.
                             </p>
                             <div className="mt-5 flex items-center gap-3">
