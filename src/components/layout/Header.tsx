@@ -37,7 +37,7 @@ export function Header() {
             <img
               src="/logo-hori-transparency.png"
               alt={`Papás en ${config.cityName}`}
-              className="h-11 w-auto object-contain"
+              className="h-[57px] w-auto object-contain"
             />
           </Link>
 

@@ -470,7 +470,7 @@ export function ColaborarForm() {
                     </>
                 }
             >
-                <Field label="URL de reservación o información" required>
+                <Field label="URL de reserva o información" required>
                     <Input
                         type="url"
                         required

@@ -27,7 +27,7 @@ export default function ColaborarLayout({ children }: { children: React.ReactNod
                         <img
                             src="/logo-hori-transparency.png"
                             alt={`Papás en ${cfg.cityName}`}
-                            className="h-10 w-auto object-contain"
+                            className="h-[52px] w-auto object-contain"
                         />
                         <span className="hidden sm:inline-block text-[10.5px] uppercase tracking-[0.22em] font-semibold text-warm-400 border-l border-warm-200 pl-3">
                             Colaboradores

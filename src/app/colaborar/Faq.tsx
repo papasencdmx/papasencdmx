@@ -37,7 +37,7 @@ const FAQS: FaqItem[] = [
                 <p className="mt-2 text-warm-500">
                     Ejemplo malo: "Campamento divertido en verano para niños". Ejemplo bueno:
                     "Campamento de fútbol en las instalaciones de un club con
-                    entrenadores certificados y dos sesiones diarias."
+                    entrenadores titulados y dos sesiones diarias."
                 </p>
             </>
         ),
@@ -49,7 +49,7 @@ const FAQS: FaqItem[] = [
                 <p>
                     Si nos ofreces un precio menor al normal exclusivo para nuestra
                     comunidad, lo destacamos automáticamente en la tarjeta con una insignia de
-                    descuento, lo que multiplica las reservaciones.
+                    descuento, lo que multiplica las reservas.
                 </p>
                 <p className="mt-2 text-warm-500">
                     Si prefieres no aplicar descuento, deja vacíos ambos campos y mostraremos
@@ -80,16 +80,16 @@ const FAQS: FaqItem[] = [
         ),
     },
     {
-        q: "¿Por qué piden un enlace de reservación?",
+        q: "¿Por qué piden un enlace de reserva?",
         a: (
             <>
                 <p>
-                    Es donde las familias completarán la reservación o pedirán información sobre
+                    Es donde las familias completarán la reserva o pedirán información sobre
                     tu actividad.
                 </p>
                 <p className="mt-2 text-warm-500">
                     Generamos automáticamente un enlace de seguimiento propio para que veas cuántas
-                    familias dieron clic desde Papás en CDMX hacia tu sitio.
+                    familias hicieron clic desde Papás en CDMX hacia tu sitio.
                 </p>
             </>
         ),
